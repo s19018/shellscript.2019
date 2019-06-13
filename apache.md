@@ -15,3 +15,7 @@
 		- $ sudo a2ensite ss.conf
 	- 設定の再読込
 		- $ sudo systemctl reload apache2.service
+
+## サーバの設定
+- タイムゾーンの設定
+	- $ sudo timedatectl set-timezone Asia/Tokyo
